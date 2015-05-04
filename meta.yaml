@@ -1,0 +1,40 @@
+{%set build = 0 %}
+{%set version = '0.1.0' %}
+
+package:
+  name: neurokernel_deps
+  version: {{version}}
+
+about:
+  home: https://github.com/neurokernel/neurokernel_deps_conda_recipe
+  license: BSD License
+  summary: "Neurokernel dependencies meta package."
+
+requirements:
+  run:
+    - 'bidict >=0.3.1'
+    - 'cython >=0.22'
+    - 'dill >=0.2.2'
+    - 'futures >=2.2.0'
+    - 'h5py >=2.5.0'
+    - 'lxml >=3.3.0'
+    - 'matplotlib >=1.4.3'
+    - 'mpi4py >=2.0.0'
+    - 'networkx >=1.9.1'
+    - 'numpy >=1.9.2'
+    - 'openmpi >=1.8.5rc3'
+    - 'pandas >=0.15.0'
+    - 'ply >=3.4'
+    - 'pytest >=2.7.0'
+    - 'psutil >=2.2.1'
+    - 'pycuda >=2014.1'
+    - 'pyzmq >=14.5.0'
+    - 'pytables >=2.4.0'
+    - 'python ==2.7.9'
+    - 'scipy >=0.11.0'
+    - 'shutilwhich >=1.0.1'
+    - 'twiggy >=0.4.7'
+    
+build:
+  number: {{build}}
+  string: {{build}}
