@@ -1,4 +1,4 @@
-{%set build = 7 %}
+{%set build = 8 %}
 {%set version = '0.1.0' %}
 
 package:
@@ -34,6 +34,7 @@ requirements:
     - 'pycuda >=2015.1'
     - 'pytables >=3.2.2'
     - 'python >=2.7.10'
+    - 'scikit-cuda >=0.5.1'
     - 'scipy >=0.16.0'
     - 'setuptools >=18.1'
     - 'shutilwhich >=1.1.0'
