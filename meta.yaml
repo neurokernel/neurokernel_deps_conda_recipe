@@ -1,4 +1,4 @@
-{%set build = 8 %}
+{%set build = 9 %}
 {%set version = '0.1.0' %}
 
 package:
@@ -32,7 +32,6 @@ requirements:
     - 'pytest >=2.7.0'
     - 'psutil >=2.2.1'
     - 'pycuda >=2015.1'
-    - 'pytables >=3.2.2'
     - 'python >=2.7.10'
     - 'scikit-cuda >=0.5.1'
     - 'scipy >=0.16.0'
